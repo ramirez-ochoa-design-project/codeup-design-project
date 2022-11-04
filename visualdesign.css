@@ -3,30 +3,37 @@
     width: 105px;
 }
 .text {
-    text-align: center;
+    font-family: "Anton";
+    margin: auto;
+}
+
+html { font-size: 22px; }
+body { padding: 1rem; }
+
+.cards {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+.rounded-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: "Anton";
 }
-.container {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 200px;
-    height: 50px;
+.selected-work {
+    font-family: "Abel";
 }
-.holder {
-    margin-right: 5px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+/*/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+.cards { grid-template-columns: repeat(2, 1fr); }
 }
-.h1 {
-    background: blue;
-}
-.h2 {
-    background: red;
-}
-.h3 {
-    background: green;
-}
-.h4 {
-    background: grey;
+/*/* Screen larger than 900px? 3 columns */
+
+@media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(4, 1fr); }
 }

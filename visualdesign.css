@@ -1,10 +1,7 @@
-.jumbotron {
-    background-image:url(/img/logo.png);
+.logo {
     height: 105px;
     width: 105px;
-    background-size: contain;
-    display: flex;
-    flex-direction: row-reverse;
+
 
 }
 

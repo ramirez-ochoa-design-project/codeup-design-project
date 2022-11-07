@@ -1,27 +1,38 @@
 .logo {
     height: 105px;
     width: 105px;
-
-
-
+    background-color: #E6E6E6;
 }
 .col-12 {
-
     margin: auto;
     font-size: .75em;
     text-align: center;
-font-weight: bolder;
+    font-weight: bolder;
+    background-color: #E6E6E6;
 }
+.nav, .navbar, .div, body, html {
+    background-color: #E6E6E6;
 
-
-html { font-size: 22px; }
-body { padding: 1rem; }
-
+}
+.bg-grey {
+    background-color: #E6E6E6;
+}
+html {
+    font-size: 22px;
+    background-color: #E6E6E6;
+}
+body {
+    background-color: #E6E6E6;
+}
+.container-fluid, .container {
+    background-color: #E6E6E6;
+}
 .cards {
-    max-width: 1200px;
-    margin: auto;
+    max-width: 110px;
+    margin: 110px 115px;
     display: grid;
     grid-gap: 1rem;
+    background-color: #E6E6E6;
 }
 .rounded-circle {
     width: 40px;
@@ -31,9 +42,12 @@ body { padding: 1rem; }
     align-items: center;
     justify-content: center;
     font-family: "Anton";
+    border-width: 7px;
 }
 .selected-work {
     font-family: "Abel";
+    background-color: #E6E6E6;
+
 }
 /*/* Screen larger than 600px? 2 column */
 @media (min-width: 600px) {
@@ -42,6 +56,9 @@ body { padding: 1rem; }
 /*/* Screen larger than 900px? 3 columns */
 
 @media (min-width: 900px) {
-    .cards { grid-template-columns: repeat(4, 1fr); }
+    .cards { grid-template-columns: repeat(4, 1fr);}
 }
 
+.background-color {
+    background-color: #E6E6E6;
+}

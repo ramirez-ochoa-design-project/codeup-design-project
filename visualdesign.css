@@ -48,6 +48,13 @@ body {
     font-family: "Abel";
     background-color: #E6E6E6;
 
+
+}
+
+img{
+    border-style: solid;
+    border-color: #EE6655;
+
 }
 /*/* Screen larger than 600px? 2 column */
 @media (min-width: 600px) {

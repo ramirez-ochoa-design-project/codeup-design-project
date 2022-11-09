@@ -1,7 +1,7 @@
 .logo {
     height: 105px;
     width: 105px;
-    background-color: #E6E6E6;
+    border: none;
 }
 .col-12 {
     margin: auto;
@@ -79,4 +79,12 @@ img {
 h4 {
     font-size: 16px;
 }
+.flex-container {
+    display: flex;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
